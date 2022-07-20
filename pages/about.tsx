@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import styles from '../styles/Home.module.css'
 
 const About: NextPage = () => {
   return (
@@ -12,18 +13,18 @@ const About: NextPage = () => {
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
-      <nav>
+      <nav className={styles.button}>
         <Link href="/">
           <a>Home</a>
         </Link>
       </nav>
 
-      <main>
-        <h1>About Page</h1>
+      <main className={styles.margins12}>
+        <h3>About Page</h3>
       </main>
 
       <footer>
-        <p>Footer</p>
+        <div className={[styles.footer, styles.bar].join(" ")}>Footer</div>
       </footer>
     </div>
   )

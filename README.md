@@ -1,5 +1,24 @@
 # Boilerplate-Next 
 
+Written in Typescript with Jest and Cypress integration
+Requires node 14.
+
+## Workflow
+
+```txt
+yarn run dev
+yarn test
+yarn cypress
+```
+
+## The Counter
+
+This code came from the official [Canary with Redux](https://github.com/vercel/next.js/tree/canary/examples/with-redux) example.
+
+Basically added the features directory with the counter example, as well as an app directory with a store and hooks files.
+
+## Original readme
+
 Follow along with how I made this via the step-by-step post here on [Medium](https://wk0.medium.com/create-a-typescript-nextjs-project-with-jest-cypress-adbbcf237747)
 
 Bare-bones
